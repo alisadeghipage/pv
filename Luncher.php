@@ -192,7 +192,7 @@ Our <b>Channel</b> :  [Join](http://Telegram.me/Hextor_Ch","parse_mode"=>"html")
         $phptext = str_replace("136446782",$chat_id,$phptext);
         file_put_contents($id.'/pvresan.php',$phptext);
         file_get_contents('https://api.telegram.org/bot'.$matches[1].'$texttwebhook?url=');
-        file_get_contents('https://api.telegram.org/bot'.$matches[1].'/setwebhook?url=https://t-pmresaan.rhcloud.com/'.$chat_id.'/Luncher.php');
+        file_get_contents('https://api.telegram.org/bot'.$matches[1].'/setwebhook?url=https://t-pvresaan.rhcloud.com/'.$chat_id.'/Luncher.php');
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "🚀 ربات شما با مـوفقیت آپدیت شد ♻️"));
 
 
@@ -320,7 +320,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "❗️توکن
         $phptext = str_replace("136446782",$matches[1],$phptext);
         file_put_contents($token.$id.'/pvresan.php',$phptext);
         file_get_contents('https://api.telegram.org/bot'.$matches[0].'/setwebhook?url=');
-        file_get_contents('https://api.telegram.org/bot'.$matches[0].'/setwebhook?url=https://t-pmresaan.rhcloud.com/'.$id.'/pvresan.php');
+        file_get_contents('https://api.telegram.org/bot'.$matches[0].'/setwebhook?url=https://t-pvresaan.rhcloud.com/'.$id.'/pvresan.php');
     $unstalled = "
 🎊تبریک🎊
 😍توکن ارسال معتبر بوده و هم اکنون به عنوان ربات پیام رسان شما ثبت شد.
