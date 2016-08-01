@@ -132,7 +132,7 @@ function processMessage($message) {
 `123456789:ABCDE1FGHIJ5KLMNO5PQRS`
 
 
-به ربات ما امتیاز بدید  👈        [⭐️TG Massenger⭐️](https://telegram.me/storebot?start=TGmassenger)
+به ربات ما امتیاز بدید  👈        [⭐️TG Massenger⭐️](https://telegram.me/storebot?start=TGmassengerBot)
 
 هر نفر = یک ربات ✖️
 ربات دوم = 4000ت ✔️
@@ -163,7 +163,7 @@ $pmembersid= explode("\n",$txxt);
       apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>PM Resan Saz Bot</b>
 <b>ver. 1.0</b>
 <code>Coded By</code> @Kiarash_Gh14
-Copy Right 2016©","parse_mode"=>"html"));
+@TGland 2016©","parse_mode"=>"html"));
     }
     else if ($matches[0] == "/update"&& strpos($matches[1], ":")) {
       
@@ -225,7 +225,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
     $unstalled = "ربات شما با موفقیت نصب شده است🚀 
 برای ورود به ربات خود کلیک کنید 👇😃
 به ربات ما امتیاز بدید  👇
- https://telegram.me/storebot?start=tglandmassenger
+ https://telegram.me/storebot?start=tglandmassengerbot
 .";
     
     $bot_url    = "https://api.telegram.org/bot255017796:AAEKboV88-urAEnk1j2pjm82oecozl7GZjE/"; 
@@ -309,7 +309,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
     $unstalled = "ربات شما با موفقیت نصب شده است🚀 
 برای ورود به ربات خود کلیک کنید 👇😃
 به ربات ما امتیاز بدید  👇
- https://telegram.me/storebot?start=TGmassenger
+ https://telegram.me/storebot?start=TGmassengerBot
 .";
     
     $bot_url    = "https://api.telegram.org/bot255017796:AAEKboV88-urAEnk1j2pjm82oecozl7GZjE/"; 
