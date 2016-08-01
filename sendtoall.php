@@ -132,11 +132,11 @@ function processMessage($message) {
 `123456789:ABCDE1FGHIJ5KLMNO5PQRS`
 
 
-به ربات ما امتیاز بدید  👈        [⭐️TG Massenger⭐️](https://telegram.me/storebot?start=TGmassenger)
+به ربات ما امتیاز بدید  👈        [⭐️TG Massenger⭐️](https://telegram.me/storebot?start=TGmassengerBot)
 
 هر نفر = یک ربات ✖️
 ربات دوم = 4000ت ✔️
-🤖 @TGMassenger',"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
+🤖 @TGMassengerBot',"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
 
 
 $txxt = file_get_contents('pmembers.txt');
@@ -162,8 +162,8 @@ $pmembersid= explode("\n",$txxt);
     }else if ($text == "Version") {
       apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>PvResan</b>
 <b>ver. 3.0</b>
-<code>Coded By</code> @nawr_i_man
-Copy Right 2016©","parse_mode"=>"html"));
+<code>Coded By</code> @Kiarash_GH14
+@TGland 2016©","parse_mode"=>"html"));
 
 
     
@@ -240,7 +240,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
     $unstalled = "ربات شما با موفقیت نصب شده است🚀 
 برای ورود به ربات خود کلیک کنید 👇😃
 به ربات ما امتیاز بدید  👇
- https://telegram.me/storebot?start=TGMassenger
+ https://telegram.me/storebot?start=TGMassengerbot
 .";
     
     $bot_url    = "255017796:AAEKboV88-urAEnk1j2pjm82oecozl7GZjE"; 
@@ -324,7 +324,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
     $unstalled = "ربات شما با موفقیت نصب شده است🚀 
 برای ورود به ربات خود کلیک کنید 👇😃
 به ربات ما امتیاز بدید  👇
- https://telegram.me/storebot?start=tgmassenger
+ https://telegram.me/storebot?start=tgmassengerBot
 .";
     
     $bot_url    = "255017796:AAEKboV88-urAEnk1j2pjm82oecozl7GZjE"; 
