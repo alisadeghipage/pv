@@ -160,7 +160,7 @@ $pmembersid= explode("\n",$txxt);
 
         }
     }else if ($text == "Version") {
-      apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>PM Resan Saz Bot</b>
+      apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>TG Massenger Bot</b>
 <b>ver. 1.0</b>
 <code>Coded By</code> @Kiarash_Gh14
 @TGland 2016©","parse_mode"=>"html"));
