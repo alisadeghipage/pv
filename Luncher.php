@@ -132,7 +132,7 @@ function processMessage($message) {
 `123456789:ABCDE1FGHIJ5KLMNO5PQRS`
 
 
-به ربات ما امتیاز بدید  👈        [⭐️TG Massenger⭐️](https://telegram.me/storebot?start=TGmassengerBot)
+به ربات ما امتیاز بدید  👈        [⭐️TG Massenger⭐️](https://telegram.me/storebot?start=PvResanSazBot)
 
 هر نفر = یک ربات ✖️
 ربات دوم = 4000تومان ✔️
